@@ -333,7 +333,6 @@ GameObject:
   m_Component:
   - component: {fileID: 711283028}
   - component: {fileID: 711283029}
-  - component: {fileID: 711283030}
   m_Layer: 0
   m_Name: Fog
   m_TagString: Untagged
@@ -373,42 +372,6 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 0c0cb211eb40b3d49b35cafaeb572f10, type: 2}
---- !u!114 &711283030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711283027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1fbb15bf92b84f40a1eb030765b5afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameters:
-    albedo: {r: 1, g: 1, b: 1, a: 1}
-    meanFreePath: 3
-    blendingMode: 1
-    priority: 0
-    anisotropy: 0
-    volumeMask: {fileID: 0}
-    textureScrollingSpeed: {x: 0, y: 0, z: 0}
-    textureTiling: {x: 1, y: 1, z: 1}
-    positiveFade: {x: 0.02, y: 0.04, z: 0.02}
-    negativeFade: {x: 0.02, y: 0.04, z: 0.02}
-    m_EditorUniformFade: 0.1
-    m_EditorPositiveFade: {x: 0.02, y: 0.040000003, z: 0.02}
-    m_EditorNegativeFade: {x: 0.02, y: 0.040000003, z: 0.02}
-    m_EditorAdvancedFade: 0
-    size: {x: 5, y: 2.5, z: 5}
-    invertFade: 0
-    distanceFadeStart: 10000
-    distanceFadeEnd: 10000
-    textureOffset: {x: 0, y: 0, z: 0}
-    falloffMode: 0
-    maskMode: 0
-    materialMask: {fileID: 0}
-  m_Version: 3
 --- !u!1 &957730016
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +933,7 @@ GameObject:
   - component: {fileID: 1768329471}
   - component: {fileID: 1768329470}
   m_Layer: 0
-  m_Name: New VFX
+  m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
